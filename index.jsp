@@ -9,7 +9,7 @@
         } else if (!password.equals("Devops123")) {
             request.setAttribute("error", "Wrong password.");
         } else {
-            response.sendRedirect("success.jsp");
+            response.sendRedirect("welcomePage.jsp");
             return;
         }
     }
