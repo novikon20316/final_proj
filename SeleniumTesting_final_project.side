@@ -1,0 +1,230 @@
+{
+  "id": "a58d3f59-e8f3-406c-a296-f56d2355a033",
+  "version": "2.0",
+  "name": "hello",
+  "url": "https://d9ww9bsvp460.share.zrok.io",
+  "tests": [{
+    "id": "151aae89-4cdc-479d-b413-e3fe3c93d0fc",
+    "name": "last take",
+    "commands": [{
+      "id": "ac436dcd-9914-441a-8b9c-63e3032c6333",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "742bcc98-a43d-4877-89c7-b5bec4826538",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1128x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7972d67-ac7b-4af5-9d9e-a01ef8898af1",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "599d658f-c8b1-48c0-b1b7-e8f0581a1c1f",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "dor"
+    }, {
+      "id": "2fac1175-3e27-42ed-ac50-f70d3b6e8483",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "Devops123"
+    }, {
+      "id": "4d6c78d1-b4a8-4be3-a512-88e5e765ad18",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(7)",
+      "targets": [
+        ["css=input:nth-child(7)", "css:finder"],
+        ["xpath=//input[@value='Login']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf9c6b61-d43e-4dab-a198-d113cbcd1492",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=p",
+      "targets": [
+        ["css=p", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Wrong username.')]", "xpath:innerText"]
+      ],
+      "value": "Wrong username."
+    }, {
+      "id": "20811b07-f456-4e98-99f5-8ff565665391",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a53d21cc-7504-492c-8a64-b80b3a650f50",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2cdef4d-dd42-43a6-9afd-44781c26f25c",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "21fe8b72-7fc4-4d77-9e18-8f8f69c7050a",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "e069368c-f792-4aaa-a02e-0b59b3619e8f",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(7)",
+      "targets": [
+        ["css=input:nth-child(7)", "css:finder"],
+        ["xpath=//input[@value='Login']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d5c625f-4e8e-4fa1-b747-cae3c7d4bccd",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=p",
+      "targets": [
+        ["css=p", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Wrong password.')]", "xpath:innerText"]
+      ],
+      "value": "Wrong password."
+    }, {
+      "id": "2da2a901-ec2f-4e26-baa8-4661625af6c7",
+      "comment": "",
+      "command": "click",
+      "target": "css=form",
+      "targets": [
+        ["css=form", "css:finder"],
+        ["xpath=//form[@action='index.jsp']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3bf4849b-cbc4-409e-a6c4-cd426461abf9",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1d189a9-bb38-44ec-b69e-cbbf949cb85b",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "77d984a0-de3d-4c41-ab0c-ae36741e171d",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "Devops123"
+    }, {
+      "id": "361a8ecf-6029-4396-ad6c-ac5d02132931",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(7)",
+      "targets": [
+        ["css=input:nth-child(7)", "css:finder"],
+        ["xpath=//input[@value='Login']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "989e3cb5-73e8-4d3a-a06b-2ca7e3faa1fa",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Login successful! Welcome, admin.')]", "xpath:innerText"]
+      ],
+      "value": "Login successful! Welcome, admin."
+    }]
+  }],
+  "suites": [{
+    "id": "df3a15f5-c930-497b-8730-8f429165bfec",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["151aae89-4cdc-479d-b413-e3fe3c93d0fc"]
+  }],
+  "urls": ["https://d9ww9bsvp460.share.zrok.io/"],
+  "plugins": []
+}
